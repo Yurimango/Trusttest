@@ -1,0 +1,23 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# PyInstaller build output
+build/
+*.spec.bak
+
+# Local generated output
+output/
+
+# Logs and temp files
+*.log
+*.tmp
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Local agent metadata
+.agents/

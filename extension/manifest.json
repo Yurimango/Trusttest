@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "诚信核查插件工具包",
+  "version": "0.1.0",
+  "description": "用于诚信核查过程中的网站选择、网页截图、截图标注和图片归档。",
+  "permissions": [
+    "activeTab",
+    "desktopCapture",
+    "tabs",
+    "downloads",
+    "storage",
+    "scripting"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "action": {
+    "default_title": "诚信核查插件工具包",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  }
+}
